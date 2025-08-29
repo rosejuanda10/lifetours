@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "lifetours-t9dm",
+  "private_key_id": "ab9011e87c192807bbce1d3e4c5b964c20d1a45e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC57wcl+2Br3Pjq\nk8rvXkiur9Lz7IWY+CKdwVgZCmikaq046DTDJ2ocw3uOOmVpcqToYEMvX+lgkii4\nKfXXvCa6sKUHZrlTBXIc4b6Bwk1Sl5tUxlXLSb9qPs5q5k7N9/g43d+g0cQi9+PI\nZm/dhrMAfypB4tb/llSQhLVDjdyB+3MiBfCl1SF3oG95QxKrMbdRdvVO/tR9YY9e\nF/3+oWkY6OvnqanXOA8G7qLTAdkZvi9hbAtvy/jh1B3MyLOP3ss7DvqyEjGL+cKT\nuCuWT9Nj+dgqfUvB9rV41QOuAdz3L6rUxMnxVS6SsocNrgH+HXRZMFNCiSsN/X5P\nLfhcQc61AgMBAAECggEAAknBPkPqK1mkTIq2EB0Kau/p+it6d2fyURusgF5i7EcN\ny6n74Dzvbtwu/JCWZ+ZLxjpNCVu2TQRvcNi/WEDN/zUmSsGGXVGvVlCm3gTsm6wW\n8sOgEajeLKoKM0GTTbCUAuskEeAS+FUxnek4zjKWqFZoSDhI6gtJDiA79NFdmdHf\ndeTEUnt3l/ezRCsYyJh5qVzrU74oRkxixiQ2reIhNvMxT9C0XE4fZlSk/5E7xWOY\n/QVhOIVpf9aHrDd7MWbfzJ5MTYVE4ei40lJN7LrbVSfORDE5qu4ljCBSIOprbbNl\nvHnb/lW63VIjD1aq8iUB7itotf66+lC57Uk3PtNfEQKBgQDq/gltJf4i5vluYEw6\nMSk6FFZKk9W6LRBx4ryUvnz7W30daNhgZg85yMDYljDtx5DEX0+ZxPlSQn6jDJa8\n2Fz85NfOa1CM65cG2sZfFWWqCweYS8LGm+Gvif3XmiOuJIs02zjagk8beoZ5C7Um\nekCHvAqGcZ05Ao5XmzPJHIkUPQKBgQDKjkAOSr0ZuapDUk1bq09Z5c+qC3kWXCtR\nsF7NDHacDt54oWlGlQiMuh4hx0v4nSFlGSp+FAF2xWpEZLqkYhl4KMsdu4tlFfT9\nu3GkLiMeZHz8vHMlFF2Pm2aQyJ+zTs8siDJuqGfvhvOXdXDpOUiqN3cZBw+BWICw\n75tsqB2z2QKBgH0Dcp5XdPC6cf3vSv42Qxl70kBQj4ZBDRuZJPv4ruLF1DS+H0aB\nZR43l6hhllwZLAHcNqu2Z3EEoPw66UJD1IxRbiGJY8vkVW83GgthhblFrt+thkxE\nh3bscVeuz8aH+GrBKWjNpCoZL8rbmJ6EsSnEttC5RowauQEQNyeJf799AoGBAJaG\n1gWI9zSp7GTxQbnQ+jxFc2jb89VxE2Q2nIznKTHaPuwIj9K7KEpkecYCdGvCYbHe\n3NwrA9d+5/UBok5M9L5+GkvzNqkdgx4YcWBgRQruBJBRf4RbuRfilXsdDMlU1NM0\nN75SekLf2CCDTzCSuHR+mYxI2fX2jlRvC+LYoJIpAoGAK9/XOc5xnxLVs570qSBm\nO62TyqE4z0DKSgPoU5tnR23hoOpVCWcOpjiosN9UDycr/gChSmdUeX1tlU0igsAZ\nR2LbtYsUH5bG7YPI2XdKAUTtGMd18/zk7Pg6pfwywRxDAV0DwMo+UJiaRxj2ViJD\nf9aoXXbaRSAT+a62v7biPS4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-agent-access@lifetours-t9dm.iam.gserviceaccount.com",
+  "client_id": "107953812235385624639",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-agent-access%40lifetours-t9dm.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

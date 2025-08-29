@@ -1,6 +1,3 @@
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #313030;
@@ -25,9 +22,6 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -58,18 +52,14 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
+
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
 
-/*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
+
 #topbar {
   background: #39312f;
   font-size: 14px;
@@ -110,9 +100,7 @@ h6 {
   background: #ff6b3b;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+
 #header {
   height: 70px;
   transition: all 0.5s;
@@ -152,12 +140,7 @@ h6 {
   z-index: 3;
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
+
 .navbar {
   padding: 0;
 }
@@ -279,9 +262,7 @@ h6 {
   }
 }
 
-/**
-* Mobile Navigation 
-*/
+
 .mobile-nav-toggle {
   color: #473d3a;
   font-size: 28px;
@@ -389,13 +370,11 @@ h6 {
   display: block;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+
 #hero {
   width: 100%;
-  height: 60vh;
-  background: url("SPACE.jpg") center center;
+  height: 10vh;
+  background: url("tur.jpg") center center;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -499,9 +478,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -529,9 +506,7 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
+
 .breadcrumbs {
   padding: 15px 0;
   background: #f4f2f2;
@@ -563,9 +538,7 @@ section {
   content: "/";
 }
 
-/*--------------------------------------------------------------
-# Why Us
---------------------------------------------------------------*/
+
 .why-us {
   padding: 0 0 30px 0;
   position: relative;
@@ -633,9 +606,7 @@ section {
   color: #716f6f;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+
 .about .icon-boxes h4 {
   font-size: 18px;
   color: #7f6d68;
@@ -703,7 +674,7 @@ section {
 }
 
 .about .video-box {
-  background: url("projek.jpg") center center no-repeat;
+  background: url("ytour.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -805,9 +776,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
+
 .clients .swiper-pagination {
   margin-top: 20px;
   position: relative;
@@ -835,9 +804,7 @@ section {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Values
---------------------------------------------------------------*/
+
 .values .card {
   border: 0;
   padding: 160px 20px 20px 20px;
@@ -895,14 +862,10 @@ section {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
+
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-color: #002f87; /* Ganti background dengan biru gelap */
   position: relative;
 }
 
@@ -913,7 +876,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3); /* efek overlay transparan opsional */
 }
 
 .testimonials .section-header {
@@ -931,11 +894,15 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 100px;
-  border-radius: 50%;
+  width: 240px;
+  height: 150px; 
+  object-fit: cover;
+  border-radius: 25%;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
+  display: block;
 }
+
 
 .testimonials .testimonial-item h3 {
   font-size: 20px;
@@ -997,9 +964,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
@@ -1106,9 +1071,7 @@ section {
   opacity: 1;
   bottom: 20px;
 }
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
+
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
@@ -1184,9 +1147,7 @@ section {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# F.A.Q
---------------------------------------------------------------*/
+
 .faq .faq-list {
   padding: 0 100px;
 }
@@ -1266,9 +1227,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
+
 .contact .info-box {
   color: #313030;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
@@ -1397,9 +1356,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Blog
---------------------------------------------------------------*/
 .blog {
   padding: 20px 0;
 }
@@ -1905,3 +1861,33 @@ section {
   font-size: 14px;
 }
 
+#chatbot-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 9999;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#chatbot-button img {
+  width: 40px;
+  height: 40px;
+}
+
+#chatbot-frame {
+  position: fixed;
+  bottom: 90px;
+  left: 20px;
+  z-index: 9998;
+  display: none;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
